@@ -1,0 +1,26 @@
+.question {
+  padding: 20px;
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  background-color: #eee;
+  height: 300px;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: #009688;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+}
+
+
+
+.active {
+  scale: 0.9;
+  transition: all 0.3s ease;
+  background-color: #009688;
+}
