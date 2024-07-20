@@ -3,7 +3,7 @@
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   background-color: #eee;
-  height: 300px;
+  min-hight:300px;
   display: grid;
   place-content: center;
   cursor: pointer;
